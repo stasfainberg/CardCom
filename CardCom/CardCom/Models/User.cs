@@ -44,7 +44,7 @@ namespace CardCom.Models
         public DateTime BirthDay { get; set; }
 
         [Display(Name = "Gender")]
-        public Gender Gender { get; set; }
+        public Gender? Gender { get; set; }
 
         [Phone]
         [Display(Name = "Phone")]
